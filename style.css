@@ -1,0 +1,354 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f7f6f1;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #252c36;
+}
+footer{
+    width: 100%;
+    height: 75px;
+    background-color: #252c36;
+    color: whitesmoke;
+    padding-top: 25px;
+}
+footer input{
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 19px;
+    float: left;
+}
+footer p{
+    float: left;
+}
+.clearboth{
+    clear: both;
+}
+.letter{
+    width: auto;
+    margin-left: 1200px;
+    height: 50px;
+}
+.some{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    opacity: 60%;
+}
+nav{
+    float: right;
+    margin-right: 400px;
+}
+img{
+    height: auto;
+    width: auto;
+}
+nav li{
+    text-decoration: none;
+}
+nav a{
+    float: left;
+    margin-left: 150px;
+    color: whitesmoke;
+    font-size: 30px;
+    text-decoration: none;
+}
+nav p{
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 11px;
+}
+nav ul{
+    list-style-type: none;
+}
+.breaks{
+    height: 10px;
+    width: 100%;
+    background-color: lightgray;
+    border: lightgray;
+    opacity: 40%;
+    margin: 0;
+}
+
+.select{
+    margin-left: 400px;
+    margin-top: 50px;
+    background-color: #edeae1;
+}
+
+.sort{
+    margin-left: 5px;
+    margin-top: 50px;
+    background-color: #edeae1;
+}
+
+/* slider */
+
+/* Rammen - styrer hvor meget man ser af #slidecon */
+#slider {
+    position: relative;
+    height: 400px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: silver;
+    overflow: hidden;
+}
+
+/* "Fotocontainer (som en slags filmstrimmel)" */
+#slider__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+    margin: 0;
+    /* width: 2800px; */
+}
+
+/* Div rundt om hvert image */
+.slider__content--img {
+    position: relative;
+    /* Hvis slider skal køre vertikalt */
+    float: left;
+    width:100%;
+    height: 100%;
+    margin: 0;
+    background: #CCC;
+}
+
+/* MED TEKST */
+
+.slider__content--img h4 {
+    position: absolute;
+    bottom: 0;
+    width: 700px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    line-height: 60px;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+    color: #FFF;
+    font-size: 20px;
+    z-index: 100;
+    text-transform: uppercase;
+}
+
+.slider__content--img img {
+    margin: 0;
+    width:25%;
+    height: 100%;
+}
+
+
+.slider_kasse{
+    background-color: #f7f6f1;
+    width: 100vw;
+    height: 500px;
+    margin-top: 0;
+}
+
+#circles {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    margin: 0;
+}
+
+#circles div {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    background-color: black;
+    border-radius: 50%;
+    /* border: 1px solid #FFF; */
+    cursor: pointer;
+}
+
+#circles div.hilite {
+    background: rgba(255, 255, 255, .8);
+}
+
+.brands{
+    height: 60px;
+    width: 1700px;
+    background-color: #ebe8df;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 100px;
+    box-shadow: 1px 12px 10px 1px #6B6B6B;
+}
+.brands img{
+    height: auto;
+}
+
+.sko{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-right: 200px;
+    padding-left: 200px;
+    margin-top: 50px;
+}
+.beskeder{
+    width: 1000px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.besked{
+    height: 150px;
+    width: 1000px;
+}
+
+.opdeler{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.knapper{
+    margin-left: 450px;
+}
+.knapper a{
+    float: left;
+    margin-right: 5px;
+    margin-top: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.model{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 50px;
+}
+.nummer input{
+    width: 40px;
+    background-color: #edeae1;
+    border: none;
+    margin-right: 0px;
+    border: black solid 1px;
+    appearance: textfield;
+}
+.nummer button{
+    background-color: #edeae1;
+    border: none;
+    border: black solid 1px;
+    height: 20px;
+    margin-left: -5px;
+}
+
+
+.modeller{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.Danmark img{
+    float: right;
+    height: 400px;
+    width: 400px;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+.model p{
+    font-size: 13px;
+}
+.lineover{
+        text-decoration: line-through;
+        float: left;
+}
+
+.red{
+    float: left;
+    color: red;
+}
+
+/* .beskedere input{
+    margin-left: 300px;
+} */
+
+.beskedere{
+    float: left;
+    width: 400px;
+    margin-left: 300px;
+}
+
+.message{
+    width: 600px;
+    height: 300px;
+    /* margin-left: 300px; */
+}
+
+.message__button{
+    height: 20px;
+    width: 75px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 40px;
+}
+
+.info img{
+    height: 500px;
+    width: 500px;
+    margin-top: 35px;
+    margin-left: 400px;
+    float: left;
+}
+
+.info .information{
+    height: 500px;
+    width: 300px;
+    float: right;
+    margin-right: 600px;
+    margin-top: 35px;
+}
+
+.antal input{
+    width: 40px;
+    background-color: #edeae1;
+    border: none;
+    margin-right: 0px;
+    border: black solid 1px;
+    appearance: textfield;
+    margin-top: 20px;
+}
+
+.antal button{
+    background-color: #edeae1;
+    border: none;
+    border: black solid 1px;
+    height: 20px;
+    margin-left: -5px;
+    margin-top: 20px;
+}
+
+.hr{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
